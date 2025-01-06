@@ -1,6 +1,8 @@
 package entities;
 
-public class Product  {
+import java.util.Comparator;
+
+public class Product {
 
 	private String name;
 	private Double price;
@@ -38,7 +40,7 @@ public class Product  {
 				" Price: " +
 				price;
 	}
-	
+
 
 	
 	
